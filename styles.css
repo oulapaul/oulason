@@ -1,0 +1,95 @@
+.body{
+    background-color: none;
+    margin: 0;
+    color: gold;
+}
+.h1{    
+background-color:cyan;
+            color: greenyellow;
+            margin: 0;
+            padding: 20px;
+            text-align: left;
+        }
+        .h1 :hover{
+            cursor:pointer;
+            
+        }
+        nav-header {
+            text-decoration: underline;
+            color: blueviolet;  
+            text-transform: uppercase;
+            font-family:  'Times New Roman';
+        }
+        .nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .nav ul li {
+            background-color:none;
+            margin-bottom: 5px;
+            padding: 10px;
+            text-align: left;
+            text-decoration: solid;
+            text-decoration-color:blue;
+        }
+        .nav splitscreen{
+            display: flex;
+        }
+        .nav ul li a {
+            text-decoration: brown;
+            color: none;
+        }
+        .details ul{
+            flex-direction: column;
+        }
+        .nav ul li:hover {
+            background-color: gold;
+            color: gold;
+        }
+        .work experience{
+            text-transform: uppercase;
+            text-emphasis-color: orangred;
+        }
+
+.section {
+    margin-bottom: 20px;
+}
+
+.toggle {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+}
+
+.content.active {
+    display: table-cell;
+}
+.section {
+    padding: 20px;
+    text-align: left;
+    color: #333; 
+}
+
+
+.education {
+    background-color: #f9f9f9; 
+    border-bottom: 2px solid #ddd; 
+}
+
+
+.experience {
+    background-color: #e6e6e6; 
+    border-bottom: 2px solid #ccc; 
+}
+
+
+.contacts {
+    background-color: #f0f0f0; 
+    border-bottom: 2px solid #bbb; 
+}
